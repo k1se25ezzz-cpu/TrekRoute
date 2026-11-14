@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrekRoute — Mountain Hiking UI Kit</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <main class="canvas">
+
+    <!-- Onboarding 1 -->
+    <section class="screen-wrap">
+      <h2 class="screen-label">Onboarding 1</h2>
+      <div class="phone onboarding">
+        <img class="illustration" src="onboarding-1.svg" alt="Компас и карта маршрута">
+        <a href="#" class="btn">Let's get started</a>
+      </div>
+    </section>
+
+    <!-- Onboarding 2 -->
+    <section class="screen-wrap">
+      <h2 class="screen-label">Onboarding 2</h2>
+      <div class="phone onboarding">
+        <img class="illustration" src="onboarding-2.svg" alt="Палатка и костёр">
+        <div class="dots"><span class="dot active"></span><span class="dot"></span></div>
+        <h3 class="welcome-title">Welcome to TrekRoute</h3>
+        <p class="welcome-text">With us you will discover<br>the world of mountains</p>
+        <a href="#" class="btn">Let's get started</a>
+      </div>
+    </section>
+
+    <!-- Onboarding 3 : filters -->
+    <section class="screen-wrap">
+      <h2 class="screen-label">Onboarding 3</h2>
+      <div class="phone filters">
+        <h3 class="filters-title">Trails</h3>
+        <label class="field">From Altitude</label>
+        <input class="input" type="text" placeholder="1000 m">
+        <label class="field">To Altitude</label>
+        <input class="input" type="text" placeholder="4000 m">
+        <select class="input">
+          <option>Select Difficulty</option>
+          <option>Easy</option>
+          <option>Medium</option>
+          <option>Hard</option>
+        </select>
+        <button class="btn-small clear">Clear</button>
+
+        <table class="table">
+          <thead>
+            <tr><th>Trail</th><th>Length</th><th>Level</th><th>Days</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Ala-Kul Lake</td><td>32 km</td><td>Hard</td><td>3</td></tr>
+            <tr><td>Ala-Archa</td><td>18 km</td><td>Medium</td><td>2</td></tr>
+            <tr><td>Kol-Tor</td><td>12 km</td><td>Easy</td><td>1</td></tr>
+            <tr><td>Altyn-Arashan</td><td>24 km</td><td>Medium</td><td>2</td></tr>
+            <tr><td>Song-Kol</td><td>40 km</td><td>Hard</td><td>4</td></tr>
+            <tr><td>Skazka Canyon</td><td>8 km</td><td>Easy</td><td>1</td></tr>
+            <tr><td>Peak Lenin</td><td>60 km</td><td>Hard</td><td>14</td></tr>
+            <tr><td>Jeti-Oguz</td><td>14 km</td><td>Easy</td><td>1</td></tr>
+            <tr><td>Karakol Gorge</td><td>20 km</td><td>Medium</td><td>2</td></tr>
+            <tr><td>Kegety Pass</td><td>26 km</td><td>Medium</td><td>2</td></tr>
+          </tbody>
+        </table>
+
+        <div class="pager">
+          <button class="btn-small ghost">Previous</button>
+          <button class="btn-small">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trail details -->
+    <section class="screen-wrap">
+      <h2 class="screen-label">Trail - Details</h2>
+      <div class="phone details">
+        <div class="cover">
+          <img src="hero-issyk-kul.svg" alt="Горы у озера Иссык-Куль">
+          <a href="#" class="back" aria-label="Назад">&#8592;</a>
+        </div>
+
+        <div class="details-body">
+          <h3 class="trail-title">Ala-Kul Lake</h3>
+          <p class="trail-sub">Karakol, Kyrgyzstan</p>
+
+          <div class="guides">
+            <figure><img src="guide-1.svg" alt="Гид Азамат"><figcaption>Azamat</figcaption></figure>
+            <figure><img src="guide-2.svg" alt="Гид Айгуль"><figcaption>Aigul</figcaption></figure>
+            <figure><img src="guide-3.svg" alt="Гид Бекзат"><figcaption>Bekzat</figcaption></figure>
+            <figure><img src="guide-4.svg" alt="Гид Эрлан"><figcaption>Erlan</figcaption></figure>
+          </div>
+
+          <h4>Description</h4>
+          <p>A famous high-altitude route to a turquoise lake at 3 532 m. The trail crosses alpine meadows, a rocky moraine and finishes at the Ala-Kul pass with views of Karakol peak.</p>
+
+          <h4>Distance</h4>
+          <p>32 km · 3 days · Elevation gain 1 800 m</p>
+
+          <h4>Best season</h4>
+          <p>July – September</p>
+
+          <h4>Equipment</h4>
+          <p>Trekking boots, tent, sleeping bag (−5 °C), poles, headlamp, water filter, first-aid kit.</p>
+
+          <h4>Itinerary</h4>
+          <p>Day 1: Karakol gorge to Altyn-Arashan camp. Day 2: ascent to Ala-Kul lake and pass. Day 3: descent via Sirota valley.</p>
+
+          <h4>More like this</h4>
+          <div class="more">
+            <img src="more-1.svg" alt="Маршрут 1">
+            <img src="more-2.svg" alt="Маршрут 2">
+            <img src="more-3.svg" alt="Маршрут 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
