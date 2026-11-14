@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<ellipse cx="200" cy="300" rx="170" ry="60" fill="#f2f2f2"/>
+<polygon points="70,230 150,200 230,225 330,195 330,290 230,320 150,295 70,325" fill="#ffd9a0"/>
+<polyline points="90,270 150,240 200,270 260,235 310,250" fill="none" stroke="#ff6a2b" stroke-width="5" stroke-dasharray="10 8"/>
+<circle cx="310" cy="250" r="9" fill="#ff6a2b"/>
+<circle cx="200" cy="150" r="85" fill="#1f2a44"/>
+<circle cx="200" cy="150" r="70" fill="#f7f1e3"/>
+<circle cx="200" cy="150" r="70" fill="none" stroke="#ff6a2b" stroke-width="6"/>
+<polygon points="200,90 214,150 200,210 186,150" fill="#d8d2c2"/>
+<polygon points="200,90 214,150 186,150" fill="#ff6a2b"/>
+<circle cx="200" cy="150" r="8" fill="#1f2a44"/>
+<rect x="190" y="55" width="20" height="14" rx="4" fill="#1f2a44"/>
+<g fill="#ff6a2b"><polygon points="330,60 340,90 320,90"/><polygon points="60,110 68,134 52,134"/></g>
+<g fill="#1f2a44"><polygon points="300,100 330,150 270,150"/><polygon points="320,120 350,170 290,170" opacity=".6"/></g>
+</svg>
